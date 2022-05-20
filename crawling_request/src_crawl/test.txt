@@ -1,0 +1,1000 @@
+  126  mv chromedriver ./src/chromedriver
+  127  ll
+  128  cd src
+  129  ll
+  130  vim crawling_daily.py
+  131  clear
+  132  ll
+  133  python crawling_daily.py 
+  134  vim crawling_daily.py
+  135  python crawling_daily.py 
+  136  vim crawling_daily.py
+  137  python crawling_daily.py 
+  138  vim crawling_daily.py
+  139  ll
+  140  cd ..
+  141  ;;
+  142  ll
+  143  cd ..
+  144  ll
+  145  source ./virtual/bin/activate
+  146  cd virtual/src/
+  147  ll
+  148  pip lis
+  149  pip list
+  150  pip install selenium
+  151  python crawling_daily.py 
+  152  google-chrome --version
+  153  ll
+  154  wget https://chromedriver.storage.googleapis.com/92.0.4515.107/chromedriver_linux64.zip
+  155  ll
+  156  rm chromedriver
+  157  unzip chromedriver_linux64.zip 
+  158  ll
+  159  python crawling_daily.py 
+  160  pwd
+  161  vim crawling_daily.py 
+  162  python crawling_daily.py 
+  163  ll
+  164  cd ..
+  165  ll
+  166  cd src
+  167  vim crawling_daily.py 
+  168  mkdir result
+  169  vim crawling_daily.py 
+  170  python crawling_daily.py 
+  171  vim crawling_daily.py 
+  172  python crawling_daily.py 
+  173  vim crawling_daily.py 
+  174  python crawling_daily.py 
+  175  vim crawling_daily.py 
+  176  python crawling_daily.py 
+  177  ll
+  178  vim crawling_daily.py 
+  179  mkdir result/NC result/BA
+  180  ll
+  181  python crawling_daily.py 
+  182  vim crawling_daily.py 
+  183  python crawling_daily.py 
+  184  cd result/NC/
+  185  ll
+  186  cd ../..
+  187  ll
+  188  vim crawling_daily.py 
+  189  python crawling_daily.py 
+  190  vim crawling_daily.py 
+  191  python crawling_daily.py 
+  192  vim crawling_daily.py 
+  193  python crawling_daily.py 
+  194  vim crawling_daily.py 
+  195  python crawling_daily.py 
+  196  vim crawling_daily.py 
+  197  ll
+  198  cd result | ls ./ | wc -l
+  199  ll
+  200  c
+  201  ERROR : nocut news
+  202  (virtual) sia0940@sol:~/crawling/virtual/src$ vim crawling_daily.py
+  203  (virtual) sia0940@sol:~/crawling/virtual/src$ python crawling_daily.py
+  204  File read./result/NC/5611119.json
+  205  clear
+  206  ll
+  207  cd ../..
+  208  ll
+  209  cd src/
+  210  ll
+  211  vim json_summary.py 
+  212  python json_summary.py 
+  213  vim json_summary.py 
+  214  python json_summary.py 
+  215  vim json_summary.py 
+  216  python json_summary.py 
+  217  vim json_summary.py 
+  218  python json_summary.py 
+  219  :q
+  220  vim json_summary.py 
+  221  :q
+  222  python json_summary.py 
+  223  vim json_summary.py 
+  224  python json_summary.py 
+  225  vim json_summary.py 
+  226  python json_summary.py 
+  227  :q
+  228  vim json_summary.py 
+  229  python json_summary.py 
+  230  :wq
+  231  vim json_summary.py 
+  232  python json_summary.py 
+  233  vim json_summary.py 
+  234  python json_summary.py 
+  235  vim json_summary.py 
+  236  python json_summary.py 
+  237  vim json_summary.py 
+  238  python json_summary.py 
+  239  vim json_summary.py 
+  240  python json_summary.py 
+  241  vim json_summary.py 
+  242  python json_summary.py 
+  243  vim json_summary.py 
+  244  python json_summary.py
+  245  vim json_summary.py 
+  246  ll
+  247  cd result/
+  248  ll
+  249  cd ..
+  250  vim nocut_news_summary.json 
+  251  vim json_summary.py 
+  252  python json_summary.py 
+  253  vim json_summary.py
+  254  python json_summary.py 
+  255  vim json_summary.py
+  256  python
+  257  python3 json_summary.py 
+  258  ll
+  259  vim json_summary.py 
+  260  python3 json_summary.py 
+  261  ll
+  262  vim json_summary.py 
+  263  vim nocut_news_summary.json 
+  264  vim json_summary.py 
+  265  python3 json_summary.py 
+  266  vim json_summary.py 
+  267  python3 json_summary.py 
+  268  vim result/5559416.json 
+  269  python3 json_summary.py 
+  270  vim json_summary.py 
+  271  python3 json_summary.py 
+  272  vim json_summary.py 
+  273  python3 json_summary.py 
+  274  vim nocut_news_summary.json 
+  275  ll
+  276  ls -othlr
+  277  scp nocut_news_summary.json noda@10.100.54.84:/Users/noda/Downloads
+  278  ll
+  279  cd result/
+  280  ll
+  281  ls ./ | wc -l
+  282  vim 5427587.json
+  283  ls ./ | wc -l
+  284  pwd
+  285  cd ../../virtual/
+  286  cd src/
+  287  ll
+  288  python crawling_daily.py 
+  289  python --version
+  290  python3 crawling_daily.py 
+  291  pip --version
+  292  pip3 install selenium
+  293  python3 crawling_daily.py 
+  294  sudo apt  install jq
+  295  pwd
+  296  cd /home/sia0940/crawling/src
+  297  jq length ./nocut_news_summary.json 
+  298  vim nocut_news_summary.json 
+  299  cd /home/sia0940/crawling/virtual/src
+  300  vim crawling_daily.py 
+  301  ll
+  302  python --version
+  303  python3 crawling_daily.py 
+  304  vim crawling_daily.py 
+  305  python3 crawling_daily.py 
+  306  vim crawling_daily.py 
+  307  python3 crawling_daily.py 
+  308  vim crawling_daily.py 
+  309  python3 crawling_daily.py 
+  310  vim crawling_daily.py 
+  311  python3 crawling_daily.py 
+  312  vim crawling_daily.py 
+  313  python3 crawling_daily.py 
+  314  vim crawling_daily.py 
+  315  python3 crawling_daily.py 
+  316  vim crawling_daily.py 
+  317  python3 crawling_daily.py 
+  318  vim crawling_daily.py 
+  319  python3 crawling_daily.py 
+  320  vim crawling_daily.py 
+  321  python3 crawling_daily.py 
+  322  vim crawling_daily.py 
+  323  python3 crawling_daily.py 
+  324  vim crawling_daily.py 
+  325  python3 crawling_daily.py 
+  326  vim crawling_daily.py 
+  327  ll
+  328  python3 crawling_daily.py 
+  329  pip3 install bs4
+  330  python3 crawling_daily.py 
+  331  pip --version
+  332  pip3 list
+  333  python3 crawling_daily.py 
+  334  vim crawling_daily.py 
+  335  python3 crawling_daily.py 
+  336  vim crawling_daily.py 
+  337  python3 crawling_daily.py 
+  338  vim crawling_daily.py 
+  339  python3 crawling_daily.py 
+  340  vim crawling_daily.py 
+  341  python3 crawling_daily.py 
+  342  vim crawling_daily.py 
+  343  python3 crawling_daily.py 
+  344  vim crawling_daily.py 
+  345  python3 crawling_daily.py 
+  346  vim crawling_daily.py 
+  347  python3 crawling_daily.py 
+  348  vim crawling_daily.py 
+  349  python3 crawling_daily.py 
+  350  vim crawling_daily.py 
+  351  python3 crawling_daily.py 
+  352  pip3 lis
+  353  pip3 list
+  354  vim crawling_daily.py 
+  355  pip3 list
+  356  python3 crawling_daily.py 
+  357  pip3 list
+  358  vim crawling_daily.py 
+  359  pip3 list
+  360  python3 crawling_daily.py 
+  361  vim crawling_daily.py 
+  362  python3 crawling_daily.py 
+  363  pip3 install bs4
+  364  python3 crawling_daily.py 
+  365  vim crawling_daily.py 
+  366  python3 -m pip install bs4
+  367  python3 crawling_daily.py 
+  368  pip3 list
+  369  python3 -m pip3 install bs4
+  370  python -m pip install bs4
+  371  python3 crawling_daily.py 
+  372  vim crawling_daily.py 
+  373  pip3 --version
+  374  pip --version
+  375  pip3 unistall BeautifulSoup
+  376  pip3 uninstall BeautifulSoup
+  377  pip3 install BeautifulSoup
+  378  pip3 uninstall BeautifulSoup4
+  379  pip3 install BeautifulSoup4
+  380  python3 crawling_daily.py 
+  381  pip3 uninstall bs4
+  382  pip3 install bs4
+  383  python3 crawling_daily.py 
+  384  pwd
+  385  ll
+  386  cd crawling/virtual/src/
+  387  ll
+  388  cd result/
+  389  ll
+  390  l
+  391  ll
+  392  ls -al
+  393  cd NC/
+  394  ll
+  395  pwd
+  396  cd ../../../../src/result/
+  397  ll
+  398  ls | wc -al
+  399  history
+  400  ls ./ | wc -l
+  401  cd ..
+  402  vim json_summary.py
+  403  pwd
+  404  python json_summary.py 
+  405  pwd
+  406  vim json_summary.py
+  407  python json_summary.py 
+  408  ll
+  409  vim json_summary.py 
+  410  vim nocut_news_summary.json 
+  411  vim json_summary.py 
+  412  python json_summary.py 
+  413  ll
+  414  vim json_summary.py 
+  415  python json_summary.py 
+  416  vim json_summary.py 
+  417  python json_summary.py 
+  418  vim json_summary.py 
+  419  python json_summary.py 
+  420  ll
+  421  vim nocut_news_summary.json 
+  422  vim json_summary.py 
+  423  python json_summary.py 
+  424  vim json_summary.py 
+  425  python json_summary.py 
+  426  vim json_summary.py 
+  427  python json_summary.py 
+  428  vim json_summary.py 
+  429  python json_summary.py 
+  430  vim json_summary.py 
+  431  python json_summary.py 
+  432  vim json_summary.py 
+  433  python json_summary.py 
+  434  vim json_summary.py 
+  435  python json_summary.py 
+  436  vim json_summary.py 
+  437  python json_summary.py 
+  438  vim json_summary.py 
+  439  ll
+  440  python json_summary.pyls ./ | wx -l
+  441  python json_summary.pyls ./ | wc -l
+  442  cd result/
+  443  python json_summary.pyls ./ | wc -l
+  444  ls ./ | wc -l
+  445  ll
+  446  ls ./ | wc -l
+  447  cd ..
+  448  ll
+  449  vim json_summary.py 
+  450  python json_summary.py 
+  451  :q
+  452  vim json_summary.py 
+  453  :q
+  454  python json_summary.py 
+  455  vim json_summary.py 
+  456  python json_summary.py 
+  457  vim json_summary.py 
+  458  python json_summary.py 
+  459  vim json_summary.py 
+  460  python json_summary.py 
+  461  vim json_summary.py 
+  462  python json_summary.py 
+  463  vim json_summary.py 
+  464  python json_summary.py 
+  465  vim json_summary.py 
+  466  python json_summary.py 
+  467  vim json_summary.py 
+  468  python json_summary.py 
+  469  vim json_summary.py 
+  470  python json_summary.py 
+  471  vim json_summary.py 
+  472  python json_summary.py 
+  473  vim json_summary.py 
+  474  python json_summary.py 
+  475  cd result 
+  476  cd ..
+  477  vim json_summary.py 
+  478  python json_summary.py 
+  479  vim json_summary.py 
+  480  python json_summary.py 
+  481  vim json_summary.py 
+  482  python json_summary.py 
+  483  vim json_summary.py 
+  484  python json_summary.py 
+  485  vim json_summary.py 
+  486  python json_summary.py 
+  487  vim json_summary.py 
+  488  python json_summary.py 
+  489  vim json_summary.py 
+  490  python json_summary.py 
+  491  vim json_summary.py 
+  492  python json_summary.py 
+  493  vim json_summary.py 
+  494  python json_summary.py 
+  495  vim json_summary.py 
+  496  vim ./result/5492112.json
+  497  file -bi ./result/5492112.json
+  498  vim ./result/5492112.json
+  499  python
+  500  ll
+  501  cd result/
+  502  ll
+  503  ls ./ | wc -l
+  504  cd ../..
+  505  ll
+  506  cd virtual/
+  507  ll
+  508  cd src/
+  509  l
+  510  vim crawling_daily.py 
+  511  cd ../../src/result/
+  512  ls ./ | wc -l
+  513  ll
+  514  cd ..
+  515  ll
+  516  python3 json_summary.py 
+  517  jq length ./nocut_news_summary.json 
+  518  pwd
+  519  ll
+  520  ls ./result/ | wc -l
+  521  ll
+  522  vim crawler.py 
+  523  cd crawling/
+  524  ll
+  525  wget https://chromedriver.storage.googleapis.com/index.html?path=91.0.4472.101/
+  526  ll
+  527  rm index.html\?path\=91.0.4472.101%2F 
+  528  wget https://chromedriver.storage.googleapis.com/index.html?path=91.0.4472.101/chromedriver_linux64.zip
+  529  ll
+  530  unzip index.html\?path\=91.0.4472.101%2Fchromedriver_linux64.zip 
+  531  ll
+  532  wget https://chromedriver.storage.googleapis.com/index.html?path=91.0.4472.101/chromedriver_linux64.zip
+  533  ll
+  534  rm index.html\?path\=91.0.4472.101%2Fchromedriver_linux64.zip
+  535  rm index.html\?path\=91.0.4472.101%2Fchromedriver_linux64.zip.1 
+  536  ll
+  537  python -m venv selenium
+  538  python3 --version
+  539  clear
+  540  pip3 --version
+  541  python -m venv selenium
+  542  python3 -m venv selenium
+  543  apt-get update
+  544  apt-get install python3-venv
+  545  sudo apt-get install python3-venv
+  546  python -m venv selenium
+  547  python3 -m venv selenium
+  548  ll
+  549  cd selenium/bin/activate
+  550  source selenium/bin/activate
+  551  ll
+  552  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+  553  출처: https://somjang.tistory.com/entry/Ubuntu-Ubuntu-서버에-Selenium-설치하고-사용하기 [솜씨좋은장씨]
+  554  출처: https://somjang.tistory.com/entry/Ubuntu-Ubuntu-서버에-Selenium
+  555  clear
+  556  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+  557  sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+  558  sudo apt-get update
+  559  sudo apt-get install google-chrome-stable
+  560  google-chrome --version
+  561  wget -N https://chromedriver.storage.googleapis.com/92.0.4515.107/chromedriver_linux64.zip
+  562  unzip chromedriver_linux64.zip 
+  563  ll
+  564  pip list
+  565  pip --version
+  566  python3 --version
+  567  python --version
+  568  pip list selenium
+  569  pip list --format=columns
+  570  mkdir -p $HOME/.pip
+  571  vi $HOME/.pip/pip.conf
+  572  pip3 list
+  573  pip list
+  574  vi $HOME/.pip/pip.conf
+  575  pip list
+  576  vi $HOME/.pip/pip.conf
+  577  pip list
+  578  pip install selenium
+  579  ll
+  580  mkdir src
+  581  ll
+  582  rm test.txt 
+  583  cd src
+  584  ll
+  585  vim test_craw.py
+  586  python test_craw.py 
+  587  vim test_craw.py
+  588  python test_craw.py 
+  589  ll
+  590  python test_craw.py 
+  591  cim test_craw.py 
+  592  vim test_craw.py 
+  593  python test_craw.py 
+  594  cd ..
+  595  ll
+  596  vim src/test_craw.py 
+  597  python src/test_craw.py 
+  598  vim src/test_craw.py 
+  599  pwd
+  600  vim src/test_craw.py 
+  601  python src/test_craw.py 
+  602  vim src/test_craw.py 
+  603  python src/test_craw.py 
+  604  vim src/test_craw.py 
+  605  clear
+  606  python src/test_craw.py 
+  607  ll
+  608  chromedriver --version
+  609  vim src/test_craw.py 
+  610  python src/test_craw.py 
+  611  vim src/test_craw.py 
+  612  python src/test_craw.py 
+  613  which chrome
+  614  ll
+  615  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  616  sudo apt install ./google-chrome-stable_current_amd64.deb
+  617  vim .zshrc
+  618  vim .bash_profile
+  619  vim ~/.bashrc
+  620  ll
+  621  cd src/
+  622  ll
+  623  vim test_craw.py 
+  624  vim craw_test.py
+  625  pyhton craw_test.py 
+  626  python craw_test.py 
+  627  ll
+  628  cd ..
+  629  ll
+  630  rm chromedriver chromedriver_linux64.zip  google-chrome-stable_current_amd64.deb 
+  631  wget https://chromedriver.storage.googleapis.com/87.0.4280.20/chromedriver_linux64.zip
+  632  ll
+  633  unzip chromedriver_linux64.zip 
+  634  ll
+  635  cd src
+  636  python craw_test.py 
+  637  vim craw_test.py 
+  638  python craw_test.py 
+  639  ll
+  640  wget https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_linux64.zip
+  641  ll
+  642  wget https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_linux64.zip
+  643  unzip chromedriver_linux64.zip 
+  644  ll
+  645  vim craw_test.py 
+  646  python craw_test.py 
+  647  which chromedriver
+  648  chromedriver --version
+  649  cd /usr/bin/chromedriver
+  650  rm /usr/bin/chromedriver
+  651  wget https://chromedriver.storage.googleapis.com/87.0.4280.20/chromedriver_linux64.zip
+  652  ll
+  653  rm chromedriver chromedriver_linux64.zip 
+  654  ll
+  655  wget https://chromedriver.storage.googleapis.com/87.0.4280.20/chromedriver_linux64.zip
+  656  unzip chromedriver_linux64.zip 
+  657  which chromedriver 
+  658  chromedriver --version
+  659  python craw_test.py 
+  660  which /usr/bin/google-chrome
+  661  google-chrome --version
+  662  rm /usr/bin/google-chrome
+  663  sudo rm /usr/bin/google-chrome
+  664  ll
+  665  python craw_test.py 
+  666  google-chrome --version
+  667  which google-chrome
+  668  cd /opt/google/chrome/google-chrome
+  669  ll
+  670  vim craw_test.py 
+  671  python craw_test.py 
+  672  pip install webdriver-manager
+  673  python craw_test.py 
+  674  vim craw_test.py 
+  675  python craw_test.py 
+  676  vim craw_test.py 
+  677  python craw_test.py 
+  678  history
+  679  vi $HOME/.pip/pip.conf
+  680  clear
+  681  python craw_test.py 
+  682  vim craw_test.py 
+  683  ll
+  684  pwd
+  685  vim craw_test.py 
+  686  python craw_test.py 
+  687  chrome --version
+  688  google-chrome --version
+  689  sudo apt https://chromedriver.storage.googleapis.com/87.0.4280.88/chromedriver_linux64.zip
+  690  sudo wget https://chromedriver.storage.googleapis.com/87.0.4280.88/chromedriver_linux64.zip
+  691  ll
+  692  unzip chromedriver_linux64.zip 
+  693  ll
+  694  rm chromedriver_linux64.zip chromedriver_linux64.zip
+  695  rm chromedriver_linux64.zip chromedriver_linux64.zip.1 
+  696  ll
+  697  clear
+  698  google-chrome --version 
+  699  sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+  700  출처: https://somjang.tistory.com/entry/Ubuntu-Ubuntu-서버에-Selenium-설치하고-사용하기 [솜씨좋은장씨]
+  701  sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+  702  sudo apt-get update 
+  703  sudo apt-get install google-chrome-stable
+  704  출처: https://somjang.tistory.com/entry/Ubuntu-Ubuntu-서버에-Selenium-설치하고-사용하기 [솜씨좋은장씨]
+  705  sudo apt-get install google-chrome-stable
+  706  출처: https://somjang.tistory.com/entry/Ubuntu-Ubuntu-서버에-Selenium-설치하고-사용하기 [솜씨좋은장씨]
+  707  clear
+  708  chrome --version
+  709  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+  710  출처: https://somjang.tistory.com/entry/Ubuntu-Ubuntu-서버에-Selenium-설치하고-사용하기 [솜씨좋은장씨]sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+  711  출처: https://somjang.tistory.com/entry/Ubuntu-Ubuntu-서버에-Selenium-설치하고-사용하기 [솜씨좋은장씨]
+  712  sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+  713  sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list
+  714  sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+  715  sudo apt-get update
+  716  sudo apt-get install google-chrome-stable
+  717  google-chrome --version
+  718  which google-chrome-stable 
+  719  chrome --version
+  720  wget -N https://chromedriver.storage.googleapis.com/87.0.4280.20/chromedriver_linux64.zip
+  721  unzip chromedriver_linux64.zip 
+  722  python craw_test.py 
+  723  cd /opt/google/chrome/google-chrome
+  724  cd /opt/google/chrome
+  725  ll
+  726  google-chrome
+  727  google-chrome --version
+  728  cd ..
+  729  pwd
+  730  ll
+  731  cd opt/
+  732  ll
+  733  rm google/
+  734  rm -f google/
+  735  rm -r google/
+  736  ll
+  737  cd google/
+  738  ll
+  739  rm chrome/
+  740  rm -r chrome/
+  741  ll
+  742  cd chrome/
+  743  ll
+  744  cd //
+  745  cd home/sia0940/
+  746  ll
+  747  cd crawling/
+  748  ll
+  749  google --version
+  750  cd src/
+  751  kk
+  752  vim craw_test.py 
+  753  rm test_craw.py 
+  754  ll
+  755  python craw_test.py 
+  756  google-chrome --version
+  757  sapt-get purge google-chrome-stable
+  758  출처: https://baramtalk.com/entry/Ubuntu-1404-Google-Chrome-Issue-우분투-구글-크롬-설치-안됨-해결 [숨[Breath]]
+  759  apt-get purge google-chrome-stable
+  760  출처: https://baramtalk.com/entry/Ubuntu-1404-Google-Chrome-Issue-우분투-구글-크롬-설치-안됨-해결 [숨[Breath]]
+  761  wget google-chrome
+  762  sudo wget google-chrome
+  763  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  764  출처: https://baramtalk.com/entry/Ubuntu-1404-Google-Chrome-Issue-우분투-구글-크롬-설치-안됨-해결 [숨[Breath]]sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  765  sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  766  google-chrome --version
+  767  chrome --version
+  768  which chrome
+  769  which google-chrome
+  770  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  771  google-chrome --version
+  772  chrome --version
+  773  clear
+  774  python craw_test.py 
+  775  ll
+  776  rm chromedriver chromedriver_linux64.zip  google-chrome-stable_current_amd64.deb 
+  777  ll
+  778  wget -N https://chromedriver.storage.googleapis.com/92.0.4515.107/chromedriver_linux64.zip
+  779  l
+  780  ll
+  781  unzip chromedriver_linux64.zip 
+  782  ll
+  783  rm chromedriver_linux64.zip 
+  784  ll
+  785  wget -N https://chromedriver.storage.googleapis.com/92.0.4515.107/chromedriver_linux64.zip
+  786  ll
+  787  vim craw_test.py 
+  788  pwd
+  789  l
+  790  unzip chromedriver_linux64.zip 
+  791  l
+  792  python craw_test.py 
+  793  ll
+  794  pwd
+  795  cd //
+  796  cd home/sia0940/
+  797  ll
+  798  cd crawling/
+  799  ll
+  800  cd src
+  801  vim crawler.py
+  802  pyhton craw
+  803  pyhton crawler.py 
+  804  python crawler.py 
+  805  vim crawler.py
+  806  python crawler.py 
+  807  vim crawler.py
+  808  python crawler.py 
+  809  vim crawler.py
+  810  python crawler.py 
+  811  pip install bs4
+  812  python crawler.py 
+  813  vim crawler.py
+  814  python crawler.py 
+  815  vim crawler.py
+  816  python crawler.py 
+  817  vim crawler.py
+  818  python crawler.py 
+  819  vim crawler.py
+  820  python crawler.py 
+  821  vim crawler.py
+  822  python crawler.py 
+  823  vim crawler.py
+  824  python crawler.py 
+  825  vim crawler.py
+  826  python crawler.py 
+  827  vim crawler.py
+  828  python crawler.py 
+  829  vim crawler.py
+  830  python crawler.py 
+  831  vim crawler.py
+  832  python crawler.py 
+  833  vim crawler.py
+  834  python crawler.py 
+  835  vim crawler.py
+  836  python crawler.py 
+  837  vim crawler.py
+  838  python crawler.py 
+  839  vim crawler.py
+  840  python crawler.py 
+  841  vim crawler.py
+  842  python crawler.py 
+  843  vim crawler.py
+  844  python crawler.py 
+  845  vim crawler.py
+  846  python crawler.py 
+  847  vim crawler.py
+  848  python crawler.py 
+  849  vim crawler.py
+  850  python crawler.py 
+  851  vim crawler.py
+  852  python crawler.py 
+  853  vim crawler.py
+  854  python crawler.py 
+  855  vim crawler.py
+  856  python crawler.py 
+  857  vim crawler.py
+  858  python crawler.py 
+  859  vim crawler.py
+  860  python crawler.py 
+  861  vim crawler.py
+  862  python crawler.py 
+  863  vim crawler.py
+  864  python crawler.py 
+  865  vim crawler.py
+  866  python crawler.py 
+  867  vim crawler.py
+  868  python crawler.py 
+  869  vim crawler.py
+  870  python crawler.py 
+  871  vim crawler.py
+  872  python crawler.py 
+  873  vim crawler.py
+  874  python crawler.py 
+  875  vim crawler.py
+  876  python crawler.py 
+  877  vim crawler.py
+  878  python crawler.py 
+  879  :q
+  880  python crawler.py 
+  881  vim crawler.py
+  882  python crawler.py 
+  883  vim crawler.py
+  884  python crawler.py 
+  885  vim crawler.py
+  886  python crawler.py 
+  887  vim crawler.py
+  888  python crawler.py 
+  889  vim crawler.py
+  890  python crawler.py 
+  891  vim crawler.py
+  892  python crawler.py 
+  893  vim crawler.py
+  894  python crawler.py 
+  895  vim crawler.py
+  896  python crawler.py 
+  897  vim crawler.py
+  898  python crawler.py 
+  899  vim crawler.py
+  900  python crawler.py 
+  901  vim crawler.py
+  902  python crawler.py 
+  903  vim crawler.py
+  904  python crawler.py 
+  905  vim crawler.py
+  906  python crawler.py 
+  907  vim crawler.py
+  908  python crawler.py 
+  909  vim crawler.py
+  910  python crawler.py 
+  911  vim crawler.py
+  912  python crawler.py 
+  913  vim crawler.py
+  914  python crawler.py 
+  915  vim crawler.py
+  916  python crawler.py 
+  917  vim crawler.py
+  918  python crawler.py 
+  919  vim crawler.py
+  920  python crawler.py 
+  921  vim crawler.py
+  922  python crawler.py 
+  923  vim crawler.py
+  924  python crawler.py 
+  925  vim crawler.py
+  926  python crawler.py 
+  927  vim crawler.py
+  928  python crawler.py 
+  929  vim crawler.py
+  930  python crawler.py 
+  931  vim crawler.py
+  932  python crawler.py 
+  933  vim crawler.py
+  934  python crawler.py 
+  935  vim crawler.py
+  936  python crawler.py 
+  937  vim crawler.py
+  938  python crawler.py 
+  939  vim crawler.py
+  940  python crawler.py 
+  941  vim crawler.py
+  942  python crawler.py 
+  943  vim crawler.py
+  944  python crawler.py 
+  945  vim crawler.py
+  946  python crawler.py 
+  947  vim crawler.py
+  948  python crawler.py 
+  949  vim crawler.py
+  950  python crawler.py 
+  951  vim crawler.py
+  952  python crawler.py 
+  953  vim crawler.py
+  954  python crawler.py 
+  955  vim crawler.py
+  956  python crawler.py 
+  957  vim crawler.py
+  958  python crawler.py 
+  959  vim crawler.py
+  960  python crawler.py 
+  961  vim crawler.py
+  962  python crawler.py 
+  963  vim crawler.py
+  964  python crawler.py 
+  965  ll
+  966  vim 5610133.json 
+  967  vim 5610629.json 
+  968  vim 5610133.json 
+  969  vim crawler.py
+  970  python crawler.py 
+  971  vim crawler.py
+  972  python crawler.py 
+  973  ll
+  974  rm 5610133.html 5610133.json 5610629.html 5610629.json 
+  975  ll
+  976  rm 56110629.html 
+  977  ll
+  978  vim crawler.py 
+  979  python crawler.py 
+  980  ll
+  981  python crawler.py 
+  982  vim crawler.py 
+  983  python crawler.py 
+  984  ;;
+  985  ll
+  986  mkdir result
+  987  ll
+  988  rm 5610127.json 5610128.json 5610129.json 5610130.json 5610132.json 5610133.json 
+  989  ll
+  990  rm 5610131.json 
+  991  vim crawler.py 
+  992  python crawler.py 
+  993  ll
+  994  vim crawler.py 
+  995  ll
+  996  python crawler.py 
+  997  ll
+  998  vim crawler.py 
+  999  python crawler.py 
+ 1000  vim crawler.py 
+ 1001  ll
+ 1002  rm 5610088.json 5610090.json 5610093.json 5610096.json 5610098.json 
+ 1003  ll
+ 1004  rm 5610100.json 5610103.json 5610105.json 5610107.json 5610112.json 5610114.json 5610117.json 5610119.json 
+ 1005  ll
+ 1006  python crawler.py 
+ 1007  ll
+ 1008  cd result/
+ 1009  kk
+ 1010  ll
+ 1011  vim 5610088.json 
+ 1012  cd ..
+ 1013  rm result/
+ 1014  ll
+ 1015  rmdir result/
+ 1016  rmdir -f result/
+ 1017  rmdir --help
+ 1018  rmdir --ignore-fail-on-non-empty result/
+ 1019  ll
+ 1020  cd result/
+ 1021  ll
+ 1022  rm *
+ 1023  ll
+ 1024  cd ..
+ 1025  ll
+ 1026  vim crawler.py 
+ 1027  vim 5610121.json 
+ 1028  vim crawler.py 
+ 1029  python craw
+ 1030  python crawler.py 
+ 1031  vim crawler.py 
+ 1032  python crawler.py 
+ 1033  ll
+ 1034  cd result/
+ 1035  l
+ 1036  ll
+ 1037  cd ..
+ 1038  vim crawler.py 
+ 1039  python crawler.py 
+ 1040  cd result/
+ 1041  ll
+ 1042  vim 5610350.json 
+ 1043  cd ..
+ 1044  vim crawler.py 
+ 1045  cd result/
+ 1046  rm *
+ 1047  ll
+ 1048  cd ..
+ 1049  python crawler.py 
+ 1050  cd result/
+ 1051  ll
+ 1052  vim 5610350.json 
+ 1053  vim 5610344.json 
+ 1054  rm *
+ 1055  cd ..
+ 1056  ll
+ 1057  rm *.json
+ 1058  ll
+ 1059  vim crawler.py 
+ 1060  ll
+ 1061  cd result/
+ 1062  ll
+ 1063  cd ..
+ 1064  python crawler.py 
+ 1065  cd result/
+ 1066  ll
+ 1067  vim 5610344.json 
+ 1068  rm *
+ 1069  ll
+ 1070  cd ..
+ 1071  vim crawler.py 
+ 1072  cd ..
+ 1073  cd src/
+ 1074  ll
+ 1075  python crawler.py 
+ 1076  cd result/
+ 1077  ll
+ 1078  rm *
+ 1079  cd ..
+ 1080  python crawler.py 
+ 1081  cd result/
+ 1082  rm *
+ 1083  cd .
+ 1084  cd ..
+ 1085  vim crawler.py 
+ 1086  ll
+ 1087  python crawler.py 
+ 1088  cd result/
+ 1089  ll
+ 1090  rm *
+ 1091  cd ..
+ 1092  clear
+ 1093  python crawler.py 
+ 1094  vim crawler.py 
+ 1095  python crawler.py 
+ 1096  screen -R craw
+ 1097  df -h
+ 1098  cd crawling/src/result/
+ 1099  ls ./ | wc -l
+ 1100  ll
+ 1101  cd ..
+ 1102  ll
+ 1103  python3 json_summary.py 
+ 1104  jq length ./nocut_news_summary.json 
+ 1105  vim nocut_news_summary.json 
+ 1106  screen  -s craw
+ 1107  ls ./result/ | wc -l
+ 1108  ll
+ 1109  cd result/
+ 1110  ls ./ | wc -l
+ 1111  ll
+ 1112  crontab -3
+ 1113  crontab -e
+ 1114  ll
+ 1115  cd ../../src
+ 1116  ll
+ 1117  ls ./result/ | wc -l
+ 1118  ll
+ 1119  cd result/
+ 1120  ll
+ 1121  vim 5610651.json
+ 1122  ll
+ 1123  ls ./ | wc -l
+ 1124  cd ..
+ 1125  history > test.txt
